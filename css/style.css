@@ -1,0 +1,59 @@
+/* Common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8px;
+}
+.container{
+    width: 1200px;
+    text-align: center;
+}
+/* Common css end */
+#all{
+    background: url(../images/pexels-lukas-kloeppel-466685.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.overlay{
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.6);
+}
+button{
+    width: 700px;
+    padding: 7px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 5px;
+    transition: 0.3s;
+}
+button:hover{
+    color: blue;
+}
+p{
+    padding: 10px;
+    display: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
